@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">RecoverApp</string>
+
+    <string name="archivos">Selecciona los archivos \nque deseas respaldar de tu dispositivo</string>
+    <string name="contactos">Selecciona a tus contactos\nde preferencia</string>
+    <string name="respaldo">Realiza un respaldo en este momento</string>
+    <string name="configura">Configura la aplicación</string>
+    <string name="encuesta">Ayúdanos a mejorar</string>
 </resources>
