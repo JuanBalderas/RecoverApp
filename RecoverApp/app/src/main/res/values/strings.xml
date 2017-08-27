@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RecoverApp</string>
+    <string name="app_name">Recover App</string>
 
     <string name="archivos">Selecciona los archivos \nque deseas respaldar de tu dispositivo</string>
     <string name="contactos">Selecciona a tus contactos\nde preferencia</string>
