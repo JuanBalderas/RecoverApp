@@ -156,6 +156,7 @@
             android:layout_height="50dp"
             android:layout_marginEnd="24dp"
             app:srcCompat="@drawable/file"
+            android:onClick="filesActivity"
             android:layout_alignTop="@+id/textView5"
             android:layout_alignParentEnd="true" />
 
@@ -164,6 +165,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/contact"
+            android:onClick="contactsActivity"
             android:layout_below="@+id/textView7"
             android:layout_alignStart="@+id/imageView2" />
 
@@ -172,6 +174,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/cloud"
+            android:onClick="cloudActivity"
             android:layout_below="@+id/textView8"
             android:layout_alignStart="@+id/imageView3" />
 
@@ -181,7 +184,8 @@
             android:layout_height="50dp"
             android:layout_alignStart="@+id/imageView4"
             android:layout_below="@+id/textView10"
-            app:srcCompat="@drawable/set" />
+            app:srcCompat="@drawable/set"
+            android:onClick="settingsActivity"/>
 
         <ImageView
             android:id="@+id/imageView6"
@@ -189,7 +193,8 @@
             android:layout_height="50dp"
             android:layout_alignStart="@+id/imageView5"
             android:layout_below="@+id/textView13"
-            app:srcCompat="@drawable/paper" />
+            app:srcCompat="@drawable/paper"
+            android:onClick="encuestaActivity"/>
 
     </RelativeLayout>
 
