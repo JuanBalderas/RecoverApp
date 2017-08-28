@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
-    int var1233434;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,5 +15,10 @@ public class MainActivity extends AppCompatActivity {
     public void filesActivity(View view){
         Intent intent = new Intent(this, FileActivity.class);
         startActivity(intent);
+    }
+
+    public void contactsActivity(View view){
+        Intent intent2 = new Intent(this, ContactActivity.class);
+        startActivity(intent2);
     }
 }
