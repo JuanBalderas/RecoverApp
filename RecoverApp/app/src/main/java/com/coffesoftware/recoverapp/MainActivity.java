@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void contactsActivity(View view){
-        Intent intent2 = new Intent(this, ContactActivity.class);
+        Intent intent2 = new Intent(this, ContactosActivity.class);
         startActivity(intent2);
     }
 }
