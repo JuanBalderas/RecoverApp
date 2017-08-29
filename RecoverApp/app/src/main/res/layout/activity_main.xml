@@ -194,7 +194,7 @@
             android:layout_alignStart="@+id/imageView5"
             android:layout_below="@+id/textView13"
             app:srcCompat="@drawable/paper"
-            android:onClick="encuestaActivity"/>
+            android:onClick="pollActivity"/>
 
     </RelativeLayout>
 

@@ -21,4 +21,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent2 = new Intent(this, ContactosActivity.class);
         startActivity(intent2);
     }
+
+    public void pollActivity(View view){
+        Intent intent3 = new Intent(this, EncuestaActivity.class);
+        startActivity(intent3);
+    }
 }

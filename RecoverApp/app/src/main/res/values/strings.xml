@@ -6,4 +6,26 @@
     <string name="respaldo">Realiza un respaldo en este momento</string>
     <string name="configura">Configura la aplicación</string>
     <string name="encuesta">Ayúdanos a mejorar</string>
+    <string name="encuestaTitle">ENCUESTA</string>
+    <string name="edad">Edad:</string>
+    <string name="question1">¿A que te dedicas?</string>
+    <string name="question2">Correo electrónico(Opcional):</string>
+    <string name="mailExample">example@example.com</string>
+    <string name="question3">Déjanos tus comentarios y sugerencias:</string>
+
+    <string-array name="edadesDisponibles">
+        <item>15–25</item>
+        <item>26–35</item>
+        <item>36–45</item>
+        <item>46–59</item>
+        <item>60 o más</item>
+    </string-array>
+
+    <string-array name="ocupacionesDisponibles">
+        <item>Estudiante</item>
+        <item>Profesionista</item>
+        <item>Trabajador Independiente</item>
+        <item>Otro</item>
+    </string-array>
+
 </resources>
