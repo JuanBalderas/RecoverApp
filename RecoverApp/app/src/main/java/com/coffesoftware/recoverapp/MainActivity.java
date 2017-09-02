@@ -26,4 +26,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent3 = new Intent(this, EncuestaActivity.class);
         startActivity(intent3);
     }
+
+    public void configActivity(View view){
+        Intent intent4 = new Intent(this, ConfigActivity.class);
+        startActivity(intent4);
+    }
 }

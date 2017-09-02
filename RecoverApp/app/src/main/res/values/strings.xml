@@ -8,10 +8,14 @@
     <string name="encuesta">Ayúdanos a mejorar</string>
     <string name="encuestaTitle">ENCUESTA</string>
     <string name="edad">Edad:</string>
-    <string name="question1">¿A que te dedicas?</string>
+    <string name="question1">¿A qué te dedicas?</string>
     <string name="question2">Correo electrónico(Opcional):</string>
     <string name="mailExample">example@example.com</string>
     <string name="question3">Déjanos tus comentarios y sugerencias:</string>
+
+    <string name="cuentaDrive">Configura tu cuenta de Google Drive</string>
+    <string name="teclas">Configura las teclas de bloqueo</string>
+    <string name="passwd">Configura algunos aspectos de \ntu contraseña</string>
 
     <string-array name="edadesDisponibles">
         <item>15–25</item>

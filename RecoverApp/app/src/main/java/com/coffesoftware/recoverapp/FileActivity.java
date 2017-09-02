@@ -15,8 +15,4 @@ public class FileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_file);
     }
 
-    public void verWhatsApp(View view){
-        RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.relativeWhats);
-
-    }
 }
