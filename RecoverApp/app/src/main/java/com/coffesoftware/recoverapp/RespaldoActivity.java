@@ -12,13 +12,19 @@ import android.widget.ProgressBar;
  */
 
 public class RespaldoActivity extends AppCompatActivity {
-    Button btnresp;
-    private ProgressBar progreso;
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_respaldo);
-
+        final ProgressBar simpleProgressBar= (ProgressBar) findViewById(R.id.simpleProgressBar);
+        Button button=(Button ) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                simpleProgressBar.setVisibility(View.VISIBLE);
+            }
+        });
 }
 
 

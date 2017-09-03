@@ -18,9 +18,10 @@
         </activity>
         <activity android:name=".FileActivity" />
         <activity android:name=".ContactosActivity" />
+        <activity android:name=".RespaldoActivity"/>
         <activity android:name=".EncuestaActivity" />
         <activity android:name=".ConfigActivity">
-        <activity android:name=".RespaldoActivity"/>
+
         </activity>
     </application>
 
