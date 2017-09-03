@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,4 +33,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent4 = new Intent(this, ConfigActivity.class);
         startActivity(intent4);
     }
+
+    public void respaldoActivity(View view){
+        Intent intent5=new Intent (this, RespaldoActivity.class);
+        startActivity(intent5);
+    }
+
 }
