@@ -33,25 +33,24 @@
             android:layout_below="@+id/textView3"
             android:layout_alignParentStart="true" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        app:srcCompat="@drawable/contact"
-
-        android:layout_marginTop="68dp"
-        android:id="@+id/imageView7"
-        android:layout_below="@+id/textView5"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:id="@+id/button"
         style="@style/estiloBoton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Seleccionar"
-        android:layout_marginTop="72dp"
-        android:layout_below="@+id/imageView7"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/contact"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
 
