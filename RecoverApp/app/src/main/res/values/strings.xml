@@ -8,5 +8,11 @@
     <string name="archivos">Selecciona que archivos deseas conservar</string>
     <string name="respaldo">Realiza un respaldo en este momento</string>
 
+    <string name="configurar">Configura</string>
+    <string name="almacenar">Almacenamiento</string>
+    <string name="contact">Contactos</string>
+    <string name="zonasd">Zonas Delictivas</string>
+    <string name="files">Archivos</string>
+
 
 </resources>
