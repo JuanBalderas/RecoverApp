@@ -1,35 +1,12 @@
 <resources>
     <string name="app_name">Recover App</string>
 
-    <string name="archivos">Selecciona los archivos \nque deseas respaldar de tu dispositivo</string>
-    <string name="contactos">Selecciona a tus contactos\nde preferencia</string>
+    <string name="configura">Configura tu clave de pánico \ny tiempo de conexión</string>
+    <string name="almacenamiento">Configura tu cuenta de Google Drive</string>
+    <string name="contactos">Selecciona los contactos\nque deseas conservar</string>
+    <string name="zonas">Ve las zonas de la ciudad\ncon altos índices de asalto</string>
+    <string name="archivos">Selecciona que archivos deseas conservar</string>
     <string name="respaldo">Realiza un respaldo en este momento</string>
-    <string name="configura">Configura la aplicación</string>
-    <string name="encuesta">Ayúdanos a mejorar</string>
-    <string name="encuestaTitle">ENCUESTA</string>
-    <string name="edad">Edad:</string>
-    <string name="question1">¿A qué te dedicas?</string>
-    <string name="question2">Correo electrónico(Opcional):</string>
-    <string name="mailExample">example@example.com</string>
-    <string name="question3">Déjanos tus comentarios y sugerencias:</string>
 
-    <string name="cuentaDrive">Configura tu cuenta de Google Drive</string>
-    <string name="teclas">Configura las teclas de bloqueo</string>
-    <string name="passwd">Configura algunos aspectos de \ntu contraseña</string>
-
-    <string-array name="edadesDisponibles">
-        <item>15–25</item>
-        <item>26–35</item>
-        <item>36–45</item>
-        <item>46–59</item>
-        <item>60 o más</item>
-    </string-array>
-
-    <string-array name="ocupacionesDisponibles">
-        <item>Estudiante</item>
-        <item>Profesionista</item>
-        <item>Trabajador Independiente</item>
-        <item>Otro</item>
-    </string-array>
 
 </resources>

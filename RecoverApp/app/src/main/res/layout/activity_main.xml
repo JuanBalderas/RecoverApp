@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:background="?attr/colorPrimary"
     tools:context="com.coffesoftware.recoverapp.MainActivity">
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -14,60 +15,61 @@
             android:id="@+id/textView7"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView5"
-            android:background="#001064"
+            android:layout_toEndOf="@+id/imageView3"
+            android:background="?attr/colorPrimary"
             android:paddingLeft="10dp"
-            android:text="@string/archivos"
-            android:textColor="@android:color/background_light"
+            android:text="@string/configura"
+            android:textColor="@style/textoPlano"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView6"
-            android:background="#001064"
+            android:layout_toEndOf="@+id/imageView3"
+            android:background="?attr/colorPrimary"
             android:paddingLeft="10dp"
-            android:text="@string/contactos"
-            android:textColor="@android:color/background_light"
+            android:text="@string/almacenamiento"
+            android:textColor="@style/textoPlano"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView9"
-            android:background="#001064"
+            android:layout_toEndOf="@+id/imageView4"
+            android:background="?attr/colorPrimary"
             android:paddingLeft="10dp"
-            android:text="@string/respaldo"
-            android:textColor="@android:color/background_light"
+            android:text="@string/contactos"
+            android:textColor="@style/textoPlano"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView13"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView12"
-            android:background="#001064"
+            android:layout_toEndOf="@+id/imageView5"
+            android:background="?attr/colorPrimary"
             android:paddingLeft="10dp"
-            android:text="@string/configura"
-            android:textColor="@android:color/background_light"
+            android:text="@string/zonas"
+            android:textColor="@style/textoPlano"
             android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView14"
-            android:background="#001064"
+            android:layout_marginBottom="20dp"
+            android:layout_toEndOf="@+id/imageView6"
+            android:background="?attr/colorPrimary"
             android:paddingLeft="10dp"
-            android:text="@string/encuesta"
-            android:textColor="@android:color/background_light"
+            android:text="@string/archivos"
+            android:textColor="@style/textoPlano"
             android:textSize="14sp" />
 
         <TextView
@@ -75,12 +77,13 @@
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:background="#001064"
-            android:gravity="center"
+            android:background="?attr/colorPrimary"
+            android:elevation="0dp"
+            android:gravity="left|center"
             android:paddingEnd="10dp"
+            android:paddingLeft="10dp"
             android:text="RECOVER APP"
-            android:textColor="@android:color/background_light"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="27sp"
             android:textStyle="bold" />
 
@@ -88,11 +91,12 @@
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView3"
             android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/imageView3"
             android:paddingLeft="10dp"
-            android:text="Archivos"
+            android:text="Configura"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -100,10 +104,11 @@
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView7"
+            android:layout_toEndOf="@+id/imageView3"
             android:paddingLeft="10dp"
-            android:text="Contactos"
+            android:text="Almacenamiento"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -111,10 +116,11 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView8"
+            android:layout_toEndOf="@+id/imageView4"
             android:paddingLeft="10dp"
-            android:text="Haz un respaldo"
+            android:text="Contactos"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -122,10 +128,11 @@
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView10"
+            android:layout_toEndOf="@+id/imageView5"
             android:paddingLeft="10dp"
-            android:text="Configurar"
+            android:text="Zonas Delictivas"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -133,10 +140,11 @@
             android:id="@+id/textView14"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
             android:layout_below="@+id/textView13"
+            android:layout_toEndOf="@+id/imageView6"
             android:paddingLeft="10dp"
-            android:text="Encuesta"
+            android:text="Archivos"
+            android:textColor="?android:attr/textColorPrimary"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -144,39 +152,39 @@
             android:id="@+id/imageView"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="18dp"
-            app:srcCompat="@drawable/lock" />
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="21dp"
+            app:srcCompat="@drawable/user" />
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginEnd="24dp"
-            app:srcCompat="@drawable/file"
-            android:onClick="filesActivity"
+            android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/textView5"
-            android:layout_alignParentEnd="true" />
+            android:layout_marginLeft="15dp"
+            android:onClick="filesActivity"
+            app:srcCompat="@drawable/set" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/contact"
-            android:onClick="contactsActivity"
+            android:layout_alignStart="@+id/imageView2"
             android:layout_below="@+id/textView7"
-            android:layout_alignStart="@+id/imageView2" />
+            android:onClick="contactsActivity"
+            app:srcCompat="@drawable/storage" />
 
         <ImageView
             android:id="@+id/imageView4"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:onClick="respaldoActivity"
             android:layout_alignStart="@+id/imageView3"
             android:layout_below="@+id/textView8"
-            app:srcCompat="@drawable/cloud" />
+            android:onClick="respaldoActivity"
+            app:srcCompat="@drawable/contact" />
 
         <ImageView
             android:id="@+id/imageView5"
@@ -185,7 +193,7 @@
             android:layout_alignStart="@+id/imageView4"
             android:layout_below="@+id/textView10"
             android:onClick="configActivity"
-            app:srcCompat="@drawable/set" />
+            app:srcCompat="@drawable/zone" />
 
         <ImageView
             android:id="@+id/imageView6"
@@ -193,8 +201,74 @@
             android:layout_height="50dp"
             android:layout_alignStart="@+id/imageView5"
             android:layout_below="@+id/textView13"
-            app:srcCompat="@drawable/paper"
-            android:onClick="pollActivity"/>
+            android:onClick="pollActivity"
+            app:srcCompat="@drawable/clip" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignTop="@+id/imageView"
+            android:layout_marginEnd="53dp"
+            app:srcCompat="@drawable/cloud" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/imageView12"
+            android:layout_marginEnd="13dp"
+            android:layout_toStartOf="@+id/imageView12"
+            tools:checked="true" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/imageView14"
+            android:layout_below="@+id/textView7"
+            app:srcCompat="@drawable/der" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/imageView13"
+            android:layout_below="@+id/textView8"
+            app:srcCompat="@drawable/der" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/imageView17"
+            android:layout_below="@+id/textView13"
+            app:srcCompat="@drawable/der" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/imageView15"
+            android:layout_below="@+id/textView10"
+            app:srcCompat="@drawable/der" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignEnd="@+id/imageView"
+            android:layout_alignTop="@+id/textView5"
+            app:srcCompat="@drawable/der" />
+
+        <ImageView
+            android:id="@+id/emergencia"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/warning" />
 
     </RelativeLayout>
 
