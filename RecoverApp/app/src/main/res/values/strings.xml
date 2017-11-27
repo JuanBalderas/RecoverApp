@@ -14,6 +14,7 @@
     <string name="zonasd">Zonas Delictivas</string>
     <string name="files">Archivos</string>
     <string name="registrate">¿No tienes una cuenta?Regístrate</string>
+    <string name="no_tienes_cuenta_registrate">¿No tienes cuenta? REGISTRATE</string>
 
 
 </resources>

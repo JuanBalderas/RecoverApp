@@ -42,16 +42,15 @@
         android:text="INICIAR SESIÓN CON CUENTA DE GOOGLE"
         android:layout_margin="25sp"
         android:layout_marginHorizontal="25sp"
-        android:background="@color/googleButton"/>
+        android:background="@color/googleButton"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
+  <Button
+      android:id="@+id/buttonReg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/no_tienes_cuenta_registrate"
+      android:onClick="logREG"/>
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:textAlignment="center"
-        android:layout_gravity="bottom"
-        android:text="@string/registrate"
-        android:textColor="@color/textBottom"
-        />
 </LinearLayout>

@@ -55,20 +55,13 @@
         android:background="@color/textBottom"/>
 
     <TextView
+        android:id="@+id/IMEI_DATOS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Datos del Dispositivo"
         android:textColor="@color/textBottom"
-        android:textStyle="bold"
-        android:textSize="12sp"/>
-
-    <TextView
-        android:layout_width="350sp"
-        android:layout_height="wrap_content"
-        android:text=" IMEI"
-        android:textColor="@color/textBottom"
-        android:layout_gravity="center"
-        android:textColorHint="@color/colorPrimaryDark"/>
+        android:textSize="12sp"
+        android:textStyle="bold" />
 
 
     <Button
