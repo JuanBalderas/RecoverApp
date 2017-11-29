@@ -20,7 +20,7 @@
         android:textStyle="bold"
         android:textSize="12sp"/>
 
-    <EditText
+    <!--<EditText
         android:layout_width="350sp"
         android:layout_height="wrap_content"
         android:hint="Nombre(s)*"
@@ -33,7 +33,7 @@
         android:hint="Apellido(s)*"
         android:layout_gravity="center"
         android:textColorHint="@color/colorPrimaryDark"/>
-
+    -->
     <EditText
         android:layout_width="350sp"
         android:layout_height="wrap_content"
@@ -71,4 +71,15 @@
         android:background="@color/colorPrimaryDark"
         android:text="REGISTRARSE"
         android:layout_marginTop="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="INICIAR SESIÓN CON CUENTA DE GOOGLE"
+        android:layout_margin="25sp"
+        android:layout_marginHorizontal="25sp"
+        android:background="@color/googleButton"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+
 </LinearLayout>

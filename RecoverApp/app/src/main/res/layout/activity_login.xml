@@ -39,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="INICIAR SESIÓN CON CUENTA DE GOOGLE"
+        android:text="REGISTRARSE CON CUENTA DE GOOGLE"
         android:layout_margin="25sp"
         android:layout_marginHorizontal="25sp"
         android:background="@color/googleButton"
