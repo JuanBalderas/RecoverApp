@@ -15,6 +15,9 @@
     <string name="files">Archivos</string>
     <string name="registrate">¿No tienes una cuenta?Regístrate</string>
     <string name="no_tienes_cuenta_registrate">¿No tienes cuenta? REGISTRATE</string>
+    <string name="imagen_sms">imagen sms</string>
+    <string name="historial_de_eventos">Historial de Eventos</string>
+    <string name="imagen_de_la_toolbar">imagen de la toolbar</string>
 
 
 </resources>
